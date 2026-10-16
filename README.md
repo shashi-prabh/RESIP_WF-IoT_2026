@@ -28,9 +28,8 @@ Data are written in  CSV  files in `results/` folder.
 | Figs. 2 and 3                              | `python run.py --exp figures`  |
 | Sec. V-B surcharge numbers | `python run.py --exp jitter` |
 
-One artifact per invocation. `--seeds` changes the Monte-Carlo draw (the default 
-is the six seeds used for the paper), and `--delta` sets the bin widths of the
-scaling sweep in ms. 
+`--seeds` changes the Monte-Carlo draw (the default is the six seeds used for the paper), 
+and `--delta` sets the bin widths of the scaling sweep in ms. 
 
 
 # Simulator files
